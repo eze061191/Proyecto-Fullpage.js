@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1aabdd0623.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="#inicio" class="marca">Olympia</a>
+    <ul id="menu" class="menu">
+      <li data-menuanchor="inicio" class="active">
+        <a href="#inicio">Inicio</a>
+      </li>
+      <li data-menuanchor="productos">
+        <a href="#productos">Productos</a>
+      </li>
+      <li data-menuanchor="contacto">
+        <a href="#contacto">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="fullpage">
+    <header class="section header">
+      <div class="contenedor-titulo">
+        <h1 class="titulo">
+          <span class="texto-naranja">Novi</span>
+          <span class="texto-blanco">b-rex</span>
+        </h1>
+        <p class="texto-blanco">Nuevo Modelo para Vans</p>
+      </div>
+      <div class="contenedor-icono">
+        <p><a href="#" class="texto-blanco"><i class="fas fa-chevron-down"></i></a></p>
+      </div>
+
+      <!-- VIDEO -->
+
+      <video loop muted data-autoplay class="bg-video">
+        <source src="media/bg-video.m4v" type="video/mp4">
+      </video>
+
+      <!-- VIDEO -->
+    </header>
+
+    <section class="section productos">
+      <article class="slide">
+        <div class="informacion-producto">
+          <p class="modelo">
+            <span class="texto-naranja">NikeCourt</span>
+            <span class="texto-negro">Air</span>
+          </p>
+          <p class="descripcion texto-negro">Lorem ipsum dolor, sit amet.</p>
+          <p class="precio">200</p>
+        </div>
+      </article>
+      <article class="slide">
+        <div class="informacion-producto">
+          <p class="modelo">
+            <span class="texto-naranja">NikeCourt</span>
+            <span class="texto-negro">Air</span>
+          </p>
+          <p class="descripcion texto-negro">Lorem ipsum dolor, sit amet.</p>
+          <p class="precio">200</p>
+        </div>
+      </article>
+      <article class="slide">
+        <div class="informacion-producto">
+          <p class="modelo">
+            <span class="texto-naranja">NikeCourt</span>
+            <span class="texto-negro">Air</span>
+          </p>
+          <p class="descripcion texto-negro">Lorem ipsum dolor, sit amet.</p>
+          <p class="precio">200</p>
+        </div>
+      </article>
+    </section>
+
+    <footer class="section footer">
+      <h2 class="texto-naranja">Sigenos en Redes Sociales</h2>
+      <p class="redes-sociales">
+        <a href="https://twitter.com/ezequielarb" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/brachostudio/" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=584129850722text=Hola&nbspcomo&nbspestas&nbsp?" class="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+  <script src="main.js"></script>
+  
+  <!-- GetButton.io widget -->
+  <script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "113362880307423", // Facebook page ID
+            call_to_action: "", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+  <!-- /GetButton.io widget -->
+</body>
+</html>
