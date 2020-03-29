@@ -352,6 +352,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 576px) {
+  .header {
+    background: url('media/bg-imagen.jpeg');
+    background-position: center;
+  }
+  
   .header .titulo {
     font-size: 60px;
   }
@@ -371,6 +376,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 450px) {
+  .header {
+    background: url('media/bg-imagen.jpeg');
+    background-position: center;
+  }
+  
   .nav {
     display: block;
     text-align: center;
